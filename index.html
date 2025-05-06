@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PICT B.E. Course Structure</title>
+
+  <!-- jQuery Mobile & jQuery -->
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+  <!-- Custom CSS -->
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+
+    .ui-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-color: #f5f5f5;
+    }
+
+    .ui-content {
+      flex: 1;
+      padding: 15px;
+    }
+
+    .ui-footer {
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+      background-color: #3b3b3b;
+      color: white;
+    }
+
+    .ui-header {
+      text-shadow: 1px 1px 2px #333;
+    }
+
+    .course-title {
+      font-weight: bold;
+      color: #2c3e50;
+      margin-bottom: 5px;
+    }
+
+    .subject-item {
+      margin-bottom: 10px;
+      padding: 8px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .subject-name {
+      font-weight: bold;
+      color: #0066cc;
+    }
+
+    .subject-desc {
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 3px;
+    }
+
+    .ui-collapsible-heading {
+      font-size: 1.2em;
+      background-color: #e9e9e9;
+    }
+
+    .highlight {
+      background-color: #e3f2fd;
+      border-left: 4px solid #2196F3;
+      padding: 8px 12px;
+      margin: 5px 0 15px;
+    }
+
+    @media (min-width: 768px) {
+      .ui-content {
+        padding: 20px 10%;
+      }
+      
+      .ui-collapsible-content {
+        padding: 10px 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div data-role="page" id="home">
+
+    <div data-role="header" data-theme="b">
+      <h1>PICT B.E. Course Structure</h1>
+    </div>
+
+    <div role="main" class="ui-content">
+      <div class="highlight">
+        Pune Institute of Computer Technology - Bachelor of Engineering (Computer Engineering) Course Structure
+      </div>
+
+      <div data-role="collapsible-set" data-theme="a" data-content-theme="a">
+
+        <!-- First Year -->
+        <div data-role="collapsible" data-iconpos="right">
+          <h3>First Year (FE)</h3>
+          <p class="course-title">Common for all branches</p>
+
+          <div data-role="collapsible" data-theme="b" data-content-theme="b">
+            <h4>Semester 1</h4>
+            <div class="subject-item">
+              <div class="subject-name">Engineering Mathematics-I</div>
+              <div class="subject-desc">Calculus, matrices, differential equations with engineering applications</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Engineering Physics</div>
+              <div class="subject-desc">Fundamentals of physics with emphasis on engineering applications</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Engineering Chemistry</div>
+              <div class="subject-desc">Principles of chemistry relevant to engineering disciplines</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Basic Electronics Engineering</div>
+              <div class="subject-desc">Introduction to electronic components, circuits and systems</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Programming Fundamentals</div>
+              <div class="subject-desc">Introduction to programming concepts using C language</div>
+            </div>
+          </div>
+
+          <div data-role="collapsible" data-theme="b" data-content-theme="b">
+            <h4>Semester 2</h4>
+            <div class="subject-item">
+              <div class="subject-name">Engineering Mathematics-II</div>
+              <div class="subject-desc">Advanced calculus, complex variables, and probability theory</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Engineering Mechanics</div>
+              <div class="subject-desc">Statics and dynamics of particles and rigid bodies</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Environmental Studies</div>
+              <div class="subject-desc">Environmental science and sustainable development</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Basic Electrical Engineering</div>
+              <div class="subject-desc">Fundamentals of electrical circuits and machines</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Communication Skills</div>
+              <div class="subject-desc">Technical communication and presentation skills</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Year -->
+        <div data-role="collapsible" data-iconpos="right">
+          <h3>Second Year (SE)</h3>
+
+          <div data-role="collapsible" data-theme="b" data-content-theme="b">
+            <h4>Semester 3</h4>
+            <div class="subject-item">
+              <div class="subject-name">Data Structures</div>
+              <div class="subject-desc">Algorithms and data structures implementation in C++</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Discrete Mathematics</div>
+              <div class="subject-desc">Mathematical foundations for computer science</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Computer Organization</div>
+              <div class="subject-desc">Computer architecture and assembly language programming</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Object-Oriented Programming</div>
+              <div class="subject-desc">OOP concepts using Java programming language</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Digital Electronics</div>
+              <div class="subject-desc">Digital logic design and computer hardware fundamentals</div>
+            </div>
+          </div>
+
+          <div data-role="collapsible" data-theme="b" data-content-theme="b">
+            <h4>Semester 4</h4>
+            <div class="subject-item">
+              <div class="subject-name">Database Management Systems</div>
+              <div class="subject-desc">Relational databases, SQL, and normalization techniques</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Microprocessor & Interfacing</div>
+              <div class="subject-desc">8086 architecture and peripheral interfacing techniques</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Software Engineering</div>
+              <div class="subject-desc">Software development life cycle and methodologies</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Operating Systems</div>
+              <div class="subject-desc">Process management, memory management, and file systems</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Theory of Computation</div>
+              <div class="subject-desc">Formal languages, automata theory, and computability</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Third Year -->
+        <div data-role="collapsible" data-iconpos="right">
+          <h3>Third Year (TE)</h3>
+
+          <div data-role="collapsible" data-theme="b" data-content-theme="b">
+            <h4>Semester 5</h4>
+            <div class="subject-item">
+              <div class="subject-name">Computer Networks</div>
+              <div class="subject-desc">Network architectures, protocols, and internet technologies</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Web Technologies</div>
+              <div class="subject-desc">HTML, CSS, JavaScript and server-side programming</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Software Modelling and Design</div>
+              <div class="subject-desc">UML diagrams and software design patterns</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Compiler Design</div>
+              <div class="subject-desc">Lexical analysis, parsing, and code generation</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Artificial Intelligence (Elective)</div>
+              <div class="subject-desc">Search algorithms, knowledge representation, and machine learning basics</div>
+            </div>
+          </div>
+
+          <div data-role="collapsible" data-theme="b" data-content-theme="b">
+            <h4>Semester 6</h4>
+            <div class="subject-item">
+              <div class="subject-name">Distributed Systems</div>
+              <div class="subject-desc">Distributed computing principles and architectures</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Mobile Computing</div>
+              <div class="subject-desc">Mobile application development and wireless technologies</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Information Systems</div>
+              <div class="subject-desc">Enterprise systems and business process modeling</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Data Mining and Warehousing</div>
+              <div class="subject-desc">Data analysis techniques and warehouse design</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Cloud Computing (Elective)</div>
+              <div class="subject-desc">Virtualization, cloud architectures, and services</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Final Year -->
+        <div data-role="collapsible" data-iconpos="right">
+          <h3>Final Year (BE)</h3>
+
+          <div data-role="collapsible" data-theme="b" data-content-theme="b">
+            <h4>Semester 7</h4>
+            <div class="subject-item">
+              <div class="subject-name">Machine Learning</div>
+              <div class="subject-desc">Supervised and unsupervised learning algorithms</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Cloud Computing</div>
+              <div class="subject-desc">Advanced cloud architectures and deployment models</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Big Data Analytics</div>
+              <div class="subject-desc">Processing and analyzing large datasets</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Cybersecurity (Elective)</div>
+              <div class="subject-desc">Security threats, cryptography, and defense mechanisms</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Project Phase I</div>
+              <div class="subject-desc">Initial phase of final year project implementation</div>
+            </div>
+          </div>
+
+          <div data-role="collapsible" data-theme="b" data-content-theme="b">
+            <h4>Semester 8</h4>
+            <div class="subject-item">
+              <div class="subject-name">Cybersecurity</div>
+              <div class="subject-desc">Advanced security protocols and ethical hacking</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Blockchain Technology</div>
+              <div class="subject-desc">Distributed ledger technology and smart contracts</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Internet of Things (Elective)</div>
+              <div class="subject-desc">IoT architectures, protocols, and applications</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Open Elective</div>
+              <div class="subject-desc">Interdisciplinary subject chosen from other departments</div>
+            </div>
+            <div class="subject-item">
+              <div class="subject-name">Project Phase II</div>
+              <div class="subject-desc">Final implementation and evaluation of project</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div data-role="footer" data-theme="b" class="ui-footer">
+      <h4>© 2025 Pune Institute of Computer Technology</h4>
+    </div>
+
+  </div>
+</body>
+</html>
