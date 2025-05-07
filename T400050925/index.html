@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PICT Student Clubs</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+  <style>
+
+    .club-card{
+        margin-bottom: 20px;
+        border-radius: 5px;
+        overflow: hidden;
+        display: flex;
+        padding: 10px;
+        background: white;
+    }
+
+    .logo-image{
+        width: 350px;
+        height: 200px;
+        margin-right: 15px;
+        border-radius: 5px;
+    }
+
+    .club-image{
+        max-width: 200px;
+        max-height: 300px;
+        scale: 70%;
+        margin-right: 15px;
+        border-radius: 5px;
+    }
+
+    .club-ach{
+        font-style: italic;
+        margin-top: 10px;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border-left: 3px solid #4CAF50;
+    }
+  </style>
+</head>
+<body>
+
+<div data-role="page">
+
+  <div data-role="header">
+    <h1>PICT STUDENT CLUBS</h1>
+    <img src="PICT.jpg" alt="coding" class="logo-image">
+  </div>
+
+  <div data-role="main">
+
+    <div data-role="collapsible-set">
+
+        <div data-role="collapsible">
+            <h3>CODING CLUB</h3>
+            <div class="club-card">
+                <img src="Coding Club.jpg" alt="coding" class="club-image">
+                <div>
+                    <p><strong>Description:</strong> A hub for coders who love solving real-world problems and taking part in national hackathons.</p>
+                    <div class="club-ach">
+                        <p>Winners of SIH 2024, participated in ACM ICPC Regionals.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="collapsible">
+            <h3>ROBOTICS CLUB</h3>
+            <div class="club-card">
+                <img src="robotics club.jpg" alt="robotics" class="club-image">
+                <div>
+                    <p><strong>Description:</strong> Focused on building robots and participating in national/international robotics competitions.</p>
+                    <div class="club-ach">
+                        <p>Finalists at Robocon India 2024, 2nd place in Techfest IIT Bombay Robowars.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="collapsible">
+            <h3>DANCE CLUB</h3>
+            <div class="club-card">
+                <img src="dance club.jpg" alt="dance" class="club-image">
+                <div>
+                    <p><strong>Description:</strong> Brings together students passionate about classical, contemporary, and street dance styles.</p>
+                    <div class="club-ach">
+                        <p>Winners at MIT Aarohan 2023, semi-finalists in Pune Dance League.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="collapsible">
+            <h3>MUSIC CLUB</h3>
+            <div class="club-card">
+                <img src="Wireless headphones.jpg" alt="music" class="club-image">
+                <div>
+                    <p><strong>Description:</strong> A place for aspiring musicians and singers to perform and create music collaboratively.</p>
+                    <div class="club-ach">
+                        <p>Performed live at Mood Indigo 2023, released original compositions on Spotify.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
